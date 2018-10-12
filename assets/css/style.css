@@ -1,0 +1,259 @@
+head {
+    background: #ffffff;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none currentcolor solid;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none currentcolor solid;
+}
+
+.topBar {
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.header{
+    margin: auto;
+    width: 960px;
+    padding: 0px 60px 0px 0px;
+}
+
+.nameHeader {
+    float: left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: white;
+    background: #4aaaa5;
+    padding: 0px 30px 0px 30px;
+}
+
+.navigation {
+    float: right;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #cccccc;
+}
+
+.about {
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+
+.portfolio {
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+
+.contact {
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background: url("../images/dust_scratches.png");
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    margin: auto;
+    min-height: 100%;
+    margin-top: 40px;
+    width: 960px;
+    padding: 0px 30px 30px 30px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+.bodyHeader {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    background: white;
+    padding: 10px 30px 30px 0px;
+    border-bottom: 3px solid #cccccc;
+}
+
+#profilePic {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.content {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 1cm;
+}
+
+.footer {
+    background: #666666;
+    height: 60px;
+    border-top: 8px solid #4aaaa5;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 8px;
+    color:#ffffff;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    padding: 4px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+#formSubmitButton {
+    padding: 0px 15px 0px 15px;
+    background: #4aaaa5;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#messageBox {
+    height: 100px;
+    resize: vertical horizontal;
+}
+
+.portfolioItem {
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 15px;
+}
+
+.portfolioImage {
+    height: inherit;
+    width: inherit;
+}
+
+.banner {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    background: #4aaaa5;
+    position: relative;
+    bottom: 80px;
+}
+
+@media only screen and (max-width: 640px) {
+    /* For mobile phones: */
+    .wrapper {
+        margin: auto;
+        min-height: 100%;
+        margin-top: 10px;
+        width: 600px;
+        padding: 0px 30px 30px 30px;
+        background: #ffffff;
+        border: 2px solid #dddddd;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For tablets: */
+    .wrapper {
+        margin: auto;
+        min-height: 100%;
+        margin-top: 40px;
+        width: 600px;
+        padding: 0px 30px 30px 30px;
+        background: #ffffff;
+        border: 2px solid #dddddd;
+    }
+
+    .header{
+        margin: auto;
+        width: 600px;
+        padding: 0px 60px 0px 0px;
+    }
+
+    .nameHeader {
+        font-size: 70%;
+    }
+
+    .about {
+        font-size: 70%;
+        padding: 8px 10px 8px 10px;
+    }
+    
+    .portfolio {
+        font-size: 70%;
+        padding: 8px 10px 8px 10px;
+    }
+    
+    .contact {
+        font-size: 70%;
+        padding: 8px 10px 8px 10px;
+    }
+
+    .bodyHeader {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    /* For desktop: */
+    .wrapper {
+        min-height: 100%;
+        margin: 40px;
+        width: 620px;
+        padding: 0px 30px 30px 30px;
+        background: #ffffff;
+        border: 2px solid #dddddd;
+    }
+
+    .nameHeader {
+        font-size: 70%;
+    }
+
+    .header {
+        width: 620px;
+        margin: 0px 40px 0px 40px;
+    }
+
+    .about {
+        font-size: 70%;
+        padding: 8px 10px 8px 10px;
+    }
+    
+    .portfolio {
+        font-size: 70%;
+        padding: 8px 10px 8px 10px;
+    }
+    
+    .contact {
+        font-size: 70%;
+        padding: 8px 10px 8px 10px;
+    }
+
+    .portfolioItem {
+        height: 175px;
+        width: 275px;
+        float: left;
+        margin: 10px;
+    }
+}
