@@ -160,18 +160,7 @@ input {
     bottom: 80px;
 }
 
-@media only screen and (max-width: 640px) {
-    /* For mobile phones: */
-    .wrapper {
-        margin: auto;
-        min-height: 100%;
-        margin-top: 10px;
-        width: 600px;
-        padding: 0px 30px 30px 30px;
-        background: #ffffff;
-        border: 2px solid #dddddd;
-    }
-}
+
 
 @media only screen and (max-width: 768px) {
     /* For tablets: */
@@ -255,5 +244,63 @@ input {
         width: 275px;
         float: left;
         margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    /* For mobile phones: */
+    .wrapper {
+        margin: auto;
+        min-height: 100%;
+        margin-top: 10px;
+        width: 320px;
+        padding: 0px 30px 30px 30px;
+        background: #ffffff;
+        border: 2px solid #dddddd;
+    }
+
+    .header {
+        width: 320px;
+        margin: auto;
+        padding: 0;
+    }
+
+    #profilePic {
+        height: 25%;
+        width: 100%;
+        float: middle;
+        margin-right: 30px;
+    }
+
+    .bodyHeader {
+        font-size: 120%;
+        text-align: center;
+    }
+
+    .nameHeader {
+        font-size: 70%;
+        text-align: center;
+    }
+
+    .navigation {
+        float: center;
+        width: 320px;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        color: #cccccc;
+    }
+
+    .about {
+        font-size: 70%;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    .portfolio {
+        font-size: 70%;
+        padding: 8px 20px 8px 20px;
+    }
+    
+    .contact {
+        font-size: 70%;
+        padding: 8px 20px 8px 20px;
     }
 }
